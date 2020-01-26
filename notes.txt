@@ -1,0 +1,33 @@
+//string 
+.strip //trims the spaces
+.upcase //converts to upper case
+.downcase //converts to lower case
+.length
+
+.include? "" //string find method
+ex: ' hi there '.include? "hi" //returns true
+
+//range
+"HI there"[0,5] == output>HI th
+
+//index
+"hi there".index("h") == output>0 // note it is case sensitive
+
+
+NUMBERING
+
+//convert number to string
+n = 20
+n.to_s
+
+//absolute value
+n.abs()  // converting negative to positive * -1
+n.round() //rounding off the decimal number
+n.ceil() //ceiling
+n.floor() //flooring the decimal number
+
+MATH CLASS
+Math.sqrt
+Math.log
+
+USER INPUT
