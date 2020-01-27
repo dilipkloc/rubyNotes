@@ -16,9 +16,13 @@ ex: ' hi there '.include? "hi" //returns true
 
 NUMBERING
 
-//convert number to string
+//convert TYpE
 n = 20
-n.to_s
+n.to_s  // to string
+n.to_i  // to Integer
+n.to_f  // to float
+
+n.is_a(String|Integer|Float) //to check the type of the variable
 
 //absolute value
 n.abs()  // converting negative to positive * -1
@@ -31,3 +35,19 @@ Math.sqrt
 Math.log
 
 USER INPUT
+
+gets  // takes input but adds \n at the end
+gets.chomp //removes the \n at the end
+
+
+ARRAY
+//same as string methods
+
+
+
+
+
+
+
+
+
