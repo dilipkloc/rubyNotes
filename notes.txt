@@ -44,6 +44,24 @@ ARRAY
 //same as string methods
 
 
+FOR
+a = [1,2,3,4]
+for i in a
+	p i
+end
+##############
+a.each do |i| 
+	p i
+end
+###############
+for i in 0..2
+	p i		# 0 1 2 output
+end
+##############
+2.times do |i|
+	p i		# 0 1 
+end
+
 
 
 
