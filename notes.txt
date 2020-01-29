@@ -65,9 +65,63 @@ end
 end
 
 
+FILES
+
+f = File.open("file.txt",#open the file in which format read,write or append)
+	#read
+	f.readchar()
+	f.readline()
+	f.readlines()
+
+	#write
+	f.write("")
+
+f.close()
+
+or
+
+File.open("Filename", which type do i want to open) do |f|
+	#read
+	f.readchar()
+	f.readline()
+	f.readlines()
+
+	#write
+	f.write("sdsdf") #writes at the current cursor position
+	
+
+end
 
 
 
 
+EXCEPTION HANDLING
+
+	begin
 
 
+	rescue 		#this will catch all the exception#
+
+
+	end
+===========================
+
+	begin
+
+	rescue	ZeroDivisioinError  #this will catch Zerodivision erros	#
+
+	rescue	TypeError  #this will catch accessing out of bound array elements #
+
+	end
+
+===========================
+	begin
+
+	rescue	ZeroDivisioinError =>  e     # e variable caught the error and can print e to know the exact errors
+	
+		p e
+
+	end
+
+
+CLASSES AND OBJECTS
