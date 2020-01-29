@@ -3,6 +3,8 @@
 .upcase //converts to upper case
 .downcase //converts to lower case
 .length
+"dilip".delete("d") #deletes d from the begining string
+"dilip".delete_at(1) #deletes i from the string
 
 .include? "" //string find method
 ex: ' hi there '.include? "hi" //returns true
